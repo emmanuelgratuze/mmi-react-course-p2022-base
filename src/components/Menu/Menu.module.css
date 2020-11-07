@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  list-style: none;
+  background-color: black;
+  padding: 1em;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
