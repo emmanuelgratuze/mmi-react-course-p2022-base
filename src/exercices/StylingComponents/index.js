@@ -1,6 +1,6 @@
 import React from "react";
 
-const StylingComponentsExercice = () => {
+const StylingComponents = () => {
   return (
     <div>
       Styling components Exercice
@@ -8,4 +8,4 @@ const StylingComponentsExercice = () => {
   );
 }
 
-export default StylingComponentsExercice;
+export default StylingComponents;

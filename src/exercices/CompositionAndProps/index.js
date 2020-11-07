@@ -1,6 +1,6 @@
 import React from "react";
 
-const CompositionAndPropsExercice = () => {
+const CompositionAndProps = () => {
   return (
     <div>
       Composition and props exercices
@@ -8,4 +8,4 @@ const CompositionAndPropsExercice = () => {
   );
 }
 
-export default CompositionAndPropsExercice;
+export default CompositionAndProps;

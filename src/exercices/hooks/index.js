@@ -1,6 +1,6 @@
 import React from "react";
 
-const HooksExercice = () => {
+const Hooks = () => {
   return (
     <div>
       Hooks Exercice
@@ -8,4 +8,4 @@ const HooksExercice = () => {
   );
 }
 
-export default HooksExercice;
+export default Hooks;

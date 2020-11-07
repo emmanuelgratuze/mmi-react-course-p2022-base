@@ -1,6 +1,6 @@
 import React from "react";
 
-const FirstComponentExercice = () => {
+const FirstComponent= () => {
   return (
     <div>
       First component
@@ -8,4 +8,4 @@ const FirstComponentExercice = () => {
   );
 }
 
-export default FirstComponentExercice;
+export default FirstComponent;

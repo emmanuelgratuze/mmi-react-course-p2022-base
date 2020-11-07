@@ -4,17 +4,20 @@ import './App.css';
 import Menu from "../components/Menu";
 
 // Exercices
-import FirstComponentExercice from '../exercices/FirstComponentExercice'
-import CompositionAndPropsExercice from '../exercices/CompositionAndPropsExercice'
-import StylingComponentsExercice from '../exercices/StylingComponentsExercice'
-import HooksExercice from '../exercices/HooksExercice'
-import RoutingExercice from '../exercices/RoutingExercice'
+import FirstComponentExercice from '../exercices/FirstComponent'
+import CompositionAndPropsExercice from '../exercices/CompositionAndProps'
+import StylingComponentsExercice from '../exercices/StylingComponents'
+import HooksExercice from '../exercices/Hooks'
+import RoutingExercice from '../exercices/Routing'
 
 function App() {
   return (
     <BrowserRouter>
       <Menu />
       <Switch>
+        <Route path="/">
+          <FirstComponentExercice />
+        </Route>
         <Route path="/first-component">
           <FirstComponentExercice />
         </Route>
