@@ -4,11 +4,11 @@ import './App.css';
 import Menu from "../components/Menu";
 
 // Exercices
-import FirstComponentExercice from '../exercices/first-component';
-import CompositionAndPropsExercice from '../exercices/composition-and-props';
-import StylingComponentsExercice from '../exercices/styling-components';
-import HooksExercice from '../exercices/hooks';
-import RoutingExercice from '../exercices/routing';
+import FirstComponentExercice from '../exercices/FirstComponentExercice'
+import CompositionAndPropsExercice from '../exercices/CompositionAndPropsExercice'
+import StylingComponentsExercice from '../exercices/StylingComponentsExercice'
+import HooksExercice from '../exercices/HooksExercice'
+import RoutingExercice from '../exercices/RoutingExercice'
 
 function App() {
   return (

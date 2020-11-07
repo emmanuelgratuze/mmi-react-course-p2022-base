@@ -1,10 +1,8 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styles from './Menu.module.css'
 
 const Menu = () => {
-  const location = useLocation()
-  console.log(location)
   return (
     <ul className={styles.menu}>
       <li>
