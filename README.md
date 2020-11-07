@@ -1,26 +1,66 @@
 # Cours React MMI
 
+## Pré-requis
+- Créer un compte github pour tous les membres des équipes: https://github.com/
+- Créer un compte Netlify par équipe: https://www.netlify.com/
+
 ## Exercices
-- Cloner le projet
-- Installer les deps et démarrer le projet
-- Modifier les fichiers dans `./exercices`
+- Cloner le repo : `git clone git@github.com:emmanuelgratuze/mmi-react-course-p2021.git`
+- Installer les dépendances : `npm install`
+- Démarrer le projet: `npm start`
+- Les fichiers des exercices se trouve dans : `./src/exercices`
 
-## Site à développer 🎉
+## Plateforme de streaming  🎧
 
-### Récupérer la base du projet 
-- Créer une copie (fork) du projet de base : https://github.com/emmanuelgratuze/mmi-react-course-p2021-project-base (fork)
-- Récupérer sa version en local (pull)
-- Sauvegarder une première modification (commit)
-- Envoyer le commit (push)
+### Setup du projet ⚒️
+#### 1. Récupérer la base du projet
+- Forker : https://github.com/emmanuelgratuze/mmi-react-course-p2021-project-base
+**ou**
+- Créer son repository de zéro si vous préférez utiliser votre propre base de projet
+
+#### 2. Configurer l'accès SSH à notre compte
+*Vous pouvez passer cette étape si vous avez déjà une clé SSH configurée avec votre compte Github*
+
+- Générer une clé SSH et ajouter l'ajouter à notre compte Github: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+#### 3. Récupérer le projet en local
+- Taper la commande : `git clone <url du repository>`
+
+*L'URL du repo se trouve sur la page de votre projet forké. Elle devrait être au format :
+`git@github.com:<votre-username-github>/mmi-react-course-p2021-project-base.git`*
+
+#### 4. Modifier le projet
+- Modifier par exemple `src/pages/Home` en ajoutant une ligne ou n'importe quel contenu
+- `git status` (optionnel : vérifie les modifications en cours). Vous devriez voir apparaître le fichier `src/pages/Home` que vous venez de modifier
+- `git add -A` (sélectionne toutes les modifications que l'on vient de faire) 
+- `git status` de nouveau (optionnel). Le nom du fichier `src/pages/Home` est normalement maintenant vert ce qui signifie qu'il est sélectionné 
+- `git commit -m "Our first commit"` (crée le commit en local)
+- `git push origin main` (envoie le commit que l'on vient de faire sur la branche "main" de notre dépot)
+*Si quelqu'un de l'équipe a déjà envoyé un commit avant, il faut le récupérer avant de pouvoir pousser le sien :*
+- `git pull origin main` (récupère les derniers commits sur la branche "main")
+- Le cas échéant... résoudre les conflits 🤪 et lancer de nouveau la précédente commande
 
 ### Déployer le projet 🚀
-- Créer un compte netlify
-- Connecter le compte à notre repository
-- Déployer!
-- Nous envoyer l'URL
+#### 1. Créer un compte Netlify 
+- https://www.netlify.com/
+*Conseil: utiliser son compte Github, c'est plus simple 😎*
+#### 2. Créer un nouveau site et le connecter au projet Github
+  - Depuis le dashboard, cliquer sur "Create new site"
+  - Sélectionner Github comme "Git provider"
+  - Autoriser l'application depuis la fenêtre qui vient de s'ouvrir
+  - Sélectionner le repository forké précédemment
+  - Laisser les champs du formulaire qui suit tels quels et cliquer sur "Deploy site"
+*Si le projet n'est pas créé à partir de celui de `mmi-react-course-p2021-project-base`, vérifiez bien que la commande de build **"Build command"** et la destination vers les fichiers buildés **"Publish directory"** sont corrects.*
+  - Attendre la fin du déploiement et vérifier que le site fonctionne correctement
+  - Nous communiquer l'URL de votre site 🙂
 
 ## Ressources
 
+### NPM
+- [Introduction à NPM](https://maxlab.fr/javascript/comprendre-et-maitriser-npm-introduction/)
+
 ### React
-- [Documentation React](https://fr.reactjs.org/docs/getting-started.html)
+- [Fondamentaux de React](https://fr.reactjs.org/docs/getting-started.html)
+
+### Spotify
 - [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
