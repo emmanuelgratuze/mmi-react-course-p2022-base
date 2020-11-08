@@ -1,8 +1,14 @@
+.header {
+  background-color: black;
+  display: flex;
+  color: gray;
+  align-items: center;
+  padding: 1em;
+}
+
 .menu {
   display: flex;
   list-style: none;
-  background-color: black;
-  padding: 1em;
   margin: 0;
 }
 

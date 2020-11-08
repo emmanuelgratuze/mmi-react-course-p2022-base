@@ -13,10 +13,10 @@
 ## Plateforme de streaming  🎧
 
 ### Setup du projet ⚒️
-#### 1. Récupérer la base du projet
+#### 1. Créer ou récupérer la base du projet
 - Forker : https://github.com/emmanuelgratuze/mmi-react-course-p2021-project-base
 **ou**
-- Créer son repository de zéro si vous préférez utiliser votre propre base de projet
+- Créer son repository de zéro et créer sa propre base de projet (de préférence avec [create-react-app](https://create-react-app.dev/))
 
 #### 2. Configurer l'accès SSH à notre compte
 *Vous pouvez passer cette étape si vous avez déjà une clé SSH configurée avec votre compte Github*
