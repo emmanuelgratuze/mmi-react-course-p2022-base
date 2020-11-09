@@ -89,7 +89,7 @@ const spotifyRedirectUri = process.env.REACT_APP_SPOTIFY_REDIRECT_URI
 * Les passer en propriété
 * Le faire pour chaque membre de votre groupe
 
-Ce qu'il se passe c'est que le fichier .env.local, est dans le .gitignore, du coup à chaque push vous n'avez jamais écraser les valeurs de vos collaborateurs.
+Le fichier .env.local étant dans le .gitignore, à chaque push vous n'avez jamais écraser les valeurs de vos collaborateurs.
 
 
 ## 3. Comment utiliser le provider
@@ -123,7 +123,7 @@ const ComposantEnfantUn = (props) => {
 ```
 
 
-### b. Comment récupérer ces varibles depuis un composant enfant
+### b. Comment récupérer ces variables depuis un composant enfant
 
 React fourni une fonction pour récupérer un context défini dans notre application : useContext(Nom du context)
 
