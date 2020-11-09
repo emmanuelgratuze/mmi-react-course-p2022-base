@@ -23,11 +23,11 @@
 
 - Générer une clé SSH et ajouter l'ajouter à notre compte Github: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-#### 3. Récupérer le projet en local
-- Taper la commande : `git clone <url du repository>`
-
+#### 3. Setup le projet en local
+- Récupérer le code : `git clone <url du repository>`
 *L'URL du repo se trouve sur la page de votre projet forké. Elle devrait être au format :
 `git@github.com:<votre-username-github>/mmi-react-course-p2021-project-base.git`*
+- Installer les dépendances : `npm install`
 
 #### 4. Modifier le projet
 - Modifier par exemple `src/pages/Home` en ajoutant une ligne ou n'importe quel contenu
