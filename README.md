@@ -59,6 +59,9 @@
 ### NPM
 - [Introduction à NPM](https://maxlab.fr/javascript/comprendre-et-maitriser-npm-introduction/)
 
+### PropTypes
+- [Documentation PropTypes](https://fr.reactjs.org/docs/typechecking-with-proptypes.html)
+
 ### React
 - [Fondamentaux de React](https://fr.reactjs.org/docs/getting-started.html)
 
