@@ -11,9 +11,6 @@ const Header = () => {
           <Link to="/first-component" className={styles.menuItem}>Premier composant</Link>
         </li>
         <li>
-          <Link to="/composition-and-props" className={styles.menuItem}>Composition et propriétés</Link>
-        </li>
-        <li>
           <Link to="/styling-components" className={styles.menuItem}>Styliser les composants</Link>
         </li>
         <li>

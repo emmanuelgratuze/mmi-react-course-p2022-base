@@ -1,11 +1,25 @@
-import React from "react";
+import React from 'react'
+import ComponentStyledWithStyleProp from './ComponentStyledWithStyleProp'
+import ComponentStyledWithNativeCSS from './ComponentStyledWithNativeCSS'
+import ComponentStyledWithCSSModules from './ComponentStyledWithCSSModules'
 
 const StylingComponents = () => {
   return (
+
     <div>
-      Styling components Exercice
+      Composant stylisé avec la propriété style:
+      <ComponentStyledWithStyleProp />
+
+      Composant stylisé en CSS
+      <ComponentStyledWithNativeCSS />
+
+      Composant stylisé en CSS Modules
+      <ComponentStyledWithCSSModules />
+
+
+      
     </div>
-  );
+  )
 }
 
 export default StylingComponents;

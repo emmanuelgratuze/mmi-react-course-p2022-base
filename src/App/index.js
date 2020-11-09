@@ -5,7 +5,6 @@ import Header from "components/Header";
 
 // Exercices
 import FirstComponentExercice from 'exercices/FirstComponent'
-import CompositionAndPropsExercice from 'exercices/CompositionAndProps'
 import StylingComponentsExercice from 'exercices/StylingComponents'
 import SpotifyExercice from 'exercices/Spotify'
 import ContextsExercice from 'exercices/Contexts'
@@ -17,9 +16,6 @@ function App() {
       <Switch>
         <Route path="/first-component">
           <FirstComponentExercice />
-        </Route>
-        <Route path="/composition-and-props">
-          <CompositionAndPropsExercice />
         </Route>
         <Route path="/styling-components">
           <StylingComponentsExercice />
