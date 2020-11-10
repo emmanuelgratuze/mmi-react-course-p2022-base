@@ -1,37 +1,32 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import './App.css';
+import React from 'react'
+import AboutPage from '../pages/AboutPage'
+import ArtistPage from '../pages/ArtistPage'
+import LoginPage from '../pages/LoginPage'
 
-import Header from "components/Header";
+import {
+  BrowserRouter,
+  Switch,
+  Route
+} from "react-router-dom"
 
-// Exercices
-import FirstComponentExercice from 'exercices/FirstComponent'
-import StylingComponentsExercice from 'exercices/StylingComponents'
-import SpotifyExercice from 'exercices/Spotify'
-import ContextsExercice from 'exercices/Contexts'
-
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
-      <Header />
       <Switch>
-        <Route path="/first-component">
-          <FirstComponentExercice />
+        <Route path="/about">
+          <AboutPage />
         </Route>
-        <Route path="/styling-components">
-          <StylingComponentsExercice />
-        </Route>
-        <Route path="/spotify">
-          <SpotifyExercice />
-        </Route>
-        <Route path="/contexts">
-          <ContextsExercice />
+        <Route path="/login">
+          <LoginPage />
         </Route>
         <Route path="/">
-          <FirstComponentExercice />
+          <ArtistPage />
         </Route>
       </Switch>
+
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
+
