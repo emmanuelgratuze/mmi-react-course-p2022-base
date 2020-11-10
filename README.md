@@ -1,6 +1,6 @@
 # Cours React MMI
 
-## Pré-requis
+## Prérequis
 - Créer un compte github pour tous les membres des équipes: https://github.com/
 - Créer un compte Netlify par équipe: https://www.netlify.com/
 
@@ -54,6 +54,24 @@
   - Attendre la fin du déploiement et vérifier que le site fonctionne correctement
   - Nous communiquer l'URL de votre site 🙂
 
+### Structure du projet
+`public`: Les fichiers qu'il contient ne sont pas compilés et sont copiés à la racine de mon site.
+Exemple : si on crée un fichier `public/image.jpg`, alors ce fichier sera accessible ici :
+- `http://localhost:3000/image.jpg` en développement (local)
+- `https://votre.site.sur.netlify.com/image.jpg` en production (sur Netlify)
+
+`src/`: Emplacement de vos fichiers Javascript et de style. Aucune arborescence n'est imposée.
+
+`craco.config.js`: Configuration Craco
+
+`node_modules`: Emplacement des paquets installés via NPM
+
+`.env` et `.env.local`: Permettent la définition de variables d'environnement
+
+`.gitignore`: Liste des fichiers que l'on ne souhaite pas envoyer sur git
+
+`package.json`: Fichier de configuration de NPM
+
 ## Ressources
 
 ### NPM
@@ -67,3 +85,11 @@
 
 ### Spotify
 - [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
+
+### Create React App (CRA)
+- Create React fournit la configuration de base au projet. [Documentation](https://create-react-app.dev/docs/documentation-intro)
+
+- On utilise [Craco](https://github.com/gsoft-inc/craco) pour configurer CRA, via le fichier `craco.config.js` présent à la racine du projet. [Documentation](https://github.com/gsoft-inc/craco/blob/master/packages/craco/README.md#configuration)
+
+### Webpack
+- [Documentation](https://webpack.js.org/)
