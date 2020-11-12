@@ -128,7 +128,7 @@ const ComposantEnfantUn = (props) => {
 React fourni une fonction pour récupérer un context défini dans notre application : useContext(Nom du context)
 
 ```
-import { SpotifyContext } from 'components/SpotifyWrapper'
+import { SpotifyContext } from 'components/SpotifyProvider'
 
 const MonComposantEnfant = () => {
     const { 
