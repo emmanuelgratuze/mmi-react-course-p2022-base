@@ -1,10 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Text from './Text2'
 
 const Menu = () => {
   return (
     <div>
       <ul>
+        <Text
+          size="large"
+        >
+          Contenu du menu
+        </Text>
+
         <li>
           <Link to="/">Home (artist)</Link>
         </li>
