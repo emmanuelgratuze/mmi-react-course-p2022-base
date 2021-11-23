@@ -14,7 +14,7 @@
 
 ### Setup du projet ⚒️
 #### 1. Créer ou récupérer la base du projet
-- Forker : https://github.com/emmanuelgratuze/mmi-react-course-p2022-project-base
+- Créer un repository à partir du template : https://github.com/emmanuelgratuze/mmi-react-course-p2022-project-base
 **ou**
 - Créer son repository de zéro et créer sa propre base de projet (de préférence avec [create-react-app](https://create-react-app.dev/))
 
