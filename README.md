@@ -5,7 +5,7 @@
 - Créer un compte Netlify par équipe: https://www.netlify.com/
 
 ## Exercices
-- Cloner le repo : `git clone git@github.com:emmanuelgratuze/mmi-react-course-p2021.git`
+- Cloner le repo : `git clone git@github.com:emmanuelgratuze/mmi-react-course-p2022.git`
 - Installer les dépendances : `npm install`
 - Démarrer le projet: `npm start`
 - Les fichiers des exercices se trouve dans : `./src/exercices`
@@ -14,7 +14,7 @@
 
 ### Setup du projet ⚒️
 #### 1. Créer ou récupérer la base du projet
-- Forker : https://github.com/emmanuelgratuze/mmi-react-course-p2021-project-base
+- Forker : https://github.com/emmanuelgratuze/mmi-react-course-p2022-project-base
 **ou**
 - Créer son repository de zéro et créer sa propre base de projet (de préférence avec [create-react-app](https://create-react-app.dev/))
 
@@ -26,7 +26,7 @@
 #### 3. Setup le projet en local
 - Récupérer le code : `git clone <url du repository>`
 *L'URL du repo se trouve sur la page de votre projet forké. Elle devrait être au format :
-`git@github.com:<votre-username-github>/mmi-react-course-p2021-project-base.git`*
+`git@github.com:<votre-username-github>/mmi-react-course-p2022-project-base.git`*
 - Installer les dépendances : `npm install`
 
 #### 4. Modifier le projet
@@ -50,7 +50,7 @@
   - Autoriser l'application depuis la fenêtre qui vient de s'ouvrir
   - Sélectionner le repository forké précédemment
   - Laisser les champs du formulaire qui suit tels quels et cliquer sur "Deploy site"
-*Si le projet n'est pas créé à partir de celui de `mmi-react-course-p2021-project-base`, vérifiez bien que la commande de build **"Build command"** et la destination vers les fichiers buildés **"Publish directory"** sont corrects.*
+*Si le projet n'est pas créé à partir de celui de `mmi-react-course-p2022-project-base`, vérifiez bien que la commande de build **"Build command"** et la destination vers les fichiers buildés **"Publish directory"** sont corrects.*
   - Attendre la fin du déploiement et vérifier que le site fonctionne correctement
   - Nous communiquer l'URL de votre site 🙂
 
