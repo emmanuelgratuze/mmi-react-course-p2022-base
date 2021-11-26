@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       Cours React
+
       <ul className={styles.menu}>
         <li>
           <Link to="/first-component" className={styles.menuItem}>Premier composant</Link>

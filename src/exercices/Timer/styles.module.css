@@ -1,0 +1,9 @@
+.description {
+  background-color: #EEEEEE;
+  padding: 20px;
+  transition: opacity .2s ease-out;
+}
+
+.descriptionHidden {
+  opacity: 0.3;
+}
